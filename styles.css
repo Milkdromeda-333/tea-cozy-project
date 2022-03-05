@@ -1,0 +1,141 @@
+/*GLOBAL*/
+body {
+  background: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  margin-top: 69px;
+}
+
+a:hover {
+  color: #D7CDC6;
+}
+
+/*TEA OF THE MONTH*/
+
+
+/*NAV*/
+nav {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  z-index: 2;
+  
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  margin: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+a:hover {
+  text-shadow: 0px 0px 8px white;
+}
+
+nav img {
+  height: 50px;
+  float: left;
+  margin: 9.5px 0px 9.5px 10px;
+}
+
+#featured {
+  scroll-margin-top: 4em;
+}
+
+/*HERO*/
+
+.hero {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-color: black;
+  height: 700px;
+  width: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin: auto;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  text-transform: capitalize;
+  scroll-margin-top: 3em;
+}
+
+/*TEA OF THE MONTH*/
+.tea-of-the-month {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1000px;
+  margin: auto;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.tea-of-the-month img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-of-the-month img:hover {
+  box-shadow: 0px 0px 20px white;
+}
+
+/*LOCATIONS*/
+.locations {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  display: inline-flex;
+  position: relative;
+  flex-flow: column no-wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+  scroll-margin-top: 3em;
+}
+
+.locations div {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+.locations-header {
+position: absolute;
+bottom: 80%; 
+}
+
+/*FOOTERS*/
+.forefooter {
+  height: 200px;
+}
+
+.footer {
+  position: absolute;
+  left: 20px;
+}
